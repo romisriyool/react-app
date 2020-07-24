@@ -20,9 +20,9 @@ class Home extends React.Component {
 
         const redirectUrl = window.location.pathname;
 
-        if (redirectUrl == '/readycitric/home') {
+        if (redirectUrl == '/react-app/home') {
             // console.log("/home");
-            window.location.href = window.location.origin + "/readycitric/";
+            window.location.href = window.location.origin + "/react-app/";
         }
 
         return (
