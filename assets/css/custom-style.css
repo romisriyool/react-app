@@ -1,0 +1,714 @@
+/* header css */
+
+.mobile-header {
+    display: none !important;
+}
+
+.desktop-header {
+    display: block !important;
+    background-color: transparent !important;
+}
+
+.desktop-header .qodef-login-opener-widget .qodef-login-opener:last-child {
+    margin-right: 0;
+    font-size: 16px;
+    color: #000000;
+}
+
+.desktop-header #qodef-vertical-mobile-header-navigation ul {
+    height: auto;
+}
+
+.desktop-header #qodef-vertical-mobile-header-navigation ul li{
+    transform: rotate(90deg);
+    margin-top: 25px;
+}
+
+.desktop-header #qodef-vertical-mobile-header-navigation ul li:nth-child(4) {
+    min-height: 135px;
+    min-width: 135px;
+    position: relative;
+    left: -52px;
+}
+
+.desktop-header #qodef-vertical-mobile-header-navigation ul li:nth-child(5) {
+    min-height: 205px;
+    min-width: 175px;
+    position: relative;
+    left: -107px;
+    top: -10px;
+}
+
+.desktop-header .qodef-mobile-side-area {
+    width: 110px;
+    padding: 60px 0 0;
+}
+
+.desktop-header .qodef-mobile-side-area .qodef-mobile-side-area-inner {
+    height: auto;
+    min-height: auto;
+}
+
+.desktop-header #qodef-vertical-mobile-header-navigation ul li a {
+    text-transform: capitalize;
+}
+
+.desktop-header .current-menu-parent a{
+    border-bottom: 2px solid #010812;
+}
+
+.desktop-header .lnr-line {
+    border-top: 2px solid #000000;
+    display: block;
+}
+
+.desktop-header .lnr-line:nth-child(1) {
+    width: 25px;
+    height: 6px;
+}
+
+.desktop-header .lnr-line:nth-child(2) {
+    width: 20px;
+    height: 6px;
+    position: relative;
+    left: 5px;
+}
+
+.desktop-header .lnr-line:nth-child(3) {
+    width: 10px;
+    height: 7px;
+    position: relative;
+    left: 15px;
+}
+
+.mobile-menu-open {
+    position: relative;
+    top: 1px;
+    font-size: 24px;
+    margin-left: 20px;
+    color: #060606;
+}
+
+
+
+
+
+
+/* slider css */
+
+#rev_slider_9_1_wrapper .custom_dark.tp-bullets {
+    counter-reset: section;
+    left: 79px !important;
+}
+
+#slider-latest-posts{
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 1px;
+}
+
+.slider-title {
+    font-size: 38px;
+    line-height: 22px;
+}
+
+.slider-btn {
+    width: 186px;
+    height: 46px;
+    background: #F28316;
+    border-radius: 7px;
+}
+
+.subscribe-btn {
+    background: #F28316 !important;
+    border-radius: 7px !important;
+}
+
+.qodef-subscription-form input[type=email], 
+.qodef-subscription-form input[type=text] {
+    border-radius: 7px;
+}
+
+.mobile_subscriber.elementor-hidden-desktop {
+    display: none;
+}
+
+
+
+
+/* recipies and blog css */
+
+.recipies-header {
+    border-bottom: 1px solid rgba(112, 112, 112, .2);
+    padding: 45px 0 50px;
+}
+
+.recipies .qodef-recipe-single .qodef-recipe-title {
+    padding-right: 0%;
+    font-size: 42px;
+}
+
+.recipies .qodef-recipe-single .qodef-e-content-under-image {
+    justify-content: left;
+    margin: 0 0px 25px;
+}
+
+.recipies .qodef-recipe-single .qodef-e-content-under-image .qodef-icon {
+    margin-right: 5px;
+}
+
+.recipies .qodef-recipe-prep-time{
+    margin-left: 0 !important;
+}
+
+.recipies-subtitle-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.recipies-subtitle-wrapper h4{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.recipies-title-likes-comments{
+    display: flex;
+    align-items: center;
+}
+
+.recipies-title-likes-comments .qodef-recipe-prep-time {
+    margin-right: 18px;
+}
+
+.recipies .qodef-recipe-single .qodef-recipe-content p,
+.blog-posts .qodef-recipe-single .qodef-recipe-content p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.recipies small,
+.blog-posts small{
+    color: #C3CCD3;
+    font-size: 12px;
+}
+
+.recipies .qodef-recipe-single .qodef-m-nutritions-table {
+    margin: 30px 0;
+}
+
+.recipies .qodef-recipe-single .qodef-m-nutritions-table .qodef-m-nutritions-title {
+    background-color: #F38F2D;
+    color: #fff;
+}
+
+.recipies-status p {
+    font-size: 10px !important;
+}
+
+.recipe-products {
+    margin-top: 60px;
+}
+
+.recipe-products .box {
+    text-align: center;
+}
+
+.recipe-products .recipe-product-img img {
+    height: 147px;
+    object-fit: cover;
+}
+
+.recipe-products .box a {
+    background: #F28316;
+    width: 100%;
+    display: block;
+    color: #fff;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 7px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.recipe-ingre-direc-wrapper {
+    margin: 150px 0;
+}
+
+.recipe-ingredients h5,
+.recipe-directions h5 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.recipe-directions p{
+    margin: 0;
+}
+
+.recipe-ingredients .two-columns {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+    margin-top: 8px;
+}
+
+.recipe-ingredients .two-columns li{
+    line-height: 36px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+/* review css */
+
+.review-wrapper .left .qodef-e-main-image img {
+    height: 608px;
+    object-fit: cover;
+}
+
+.review-wrapper .right .qodef-m-image {
+    display: flex;
+    align-items: baseline;
+}
+
+.review-wrapper .right .qodef-m-image img {
+    width: 112px;
+    height: 112px;
+    object-fit: cover;
+}
+
+.review-wrapper .right .qodef-m-text p{
+    font-size: 14px;
+    color: #777777;
+    line-height: 26px;
+}
+
+.review-top-content h4{
+    margin: 20px 0 0;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.review-top-content p,
+.review-border-box .right p,
+.review-border-box-bottom-text {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.review-border-box-bottom-text {
+    margin: 40px 0 0;
+}
+
+.review-border-box-title {
+    width: 30% !important;
+    text-align: center;
+    background: #F28316;
+    float: left;
+    color: #fff;
+}
+
+.review-border-box-title p {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.review-top-content h6 {
+    font-size: 18px;
+    margin: 0;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.review-border-box {
+    padding: 60px !important;
+}
+
+.review-border-box .right h6 {
+    font-size: 18px;
+    margin: 0;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.review-border-box .right p {
+    margin-bottom: 25px;
+}
+
+.review-border-box .right a {
+    background-color: #F28316;
+    padding: 15px 50px;
+    border-radius: 7px;
+    color: #fff;
+    margin-top: 27px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.recent-blog-wrapper {
+    margin: 50px 0 100px;
+}
+
+.recent-blog-wrapper h6 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.blog-posts .elementor-image img {
+    height: 500px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+/* footer css */
+
+.footer-grid {
+    text-align: center;
+}
+
+.footer-grid span {
+    font-size: 21px;
+    margin-right: 7px;
+    color: #C3CCD3;
+}
+
+.footer-grid span:last-child {
+    margin-right: 0;
+}
+
+.footer-grid span:hover {
+    color: #F28316;
+}
+
+.footer-grid p {
+    font-size: 12px;
+    color: #2A2A2A;
+    margin-top: 0;
+}
+
+
+
+
+
+
+/* comparison css */
+
+.comparison-wrapper .comparison-content h4 {
+    font-size: 40px;
+}
+
+.comparison-wrapper .comparison-content p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.comparison-table-wrapper {
+    margin: 15px 0 60px;
+}
+
+.comparison-table-wrapper .display-center {
+    display: flex;
+    justify-content: center;
+}
+
+.fixed-width.comparison-table-content img {
+    width: 167px;
+    height: 151px;
+    object-fit: cover;
+}
+
+.comparison-table-wrapper .grey-bg-table-col {
+    background-color: #F3F3F3;
+    margin: 0 !important;
+}
+
+.comparison-table-wrapper .normal-bg-table-col{ 
+    margin: 0 !important;
+}
+
+.comparison-table-wrapper .min-height-195{
+    min-height: 195px !important;
+}
+
+.comparison-table-wrapper .min-height-90{
+    min-height: 90px !important;
+    display: flex;
+    align-items: center;
+}
+
+.comparison-table-wrapper .border-dark-right {
+    border-right: 1px solid #707070;
+}
+
+.comparison-table-wrapper .border-light-right {
+    border-right: 1px solid #DFDFDF;
+}
+
+.comparison-table-wrapper .border-bottom {
+    border-bottom: 1px solid #DFDFDF;
+}
+
+.comparison-table-content a {
+    background-color: #F28316;
+    padding: 15px 30px;
+    border-radius: 7px;
+    color: #fff;
+    margin-top: 27px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+
+
+
+
+/* general icons */
+
+h1, h2, h3, h4, h5, h6, p, ul, ol , button, input, small, .blog-nutritional-info span{
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.homepage #qodef-page-outer {
+    margin-top: -90px;
+}
+
+.recipies #qodef-page-outer,
+.about #qodef-page-outer,
+.blog-posts #qodef-page-outer,
+.review #qodef-page-outer,
+.comparison #qodef-page-outer {
+    margin-top: 55px;
+}
+
+#qodef-page-footer-bottom-area {
+    background-color: #f7f7f7;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+#qodef-page-inner {
+    padding: 0 0 0 0;
+}
+
+.qodef-page-title {
+    background-color: #ffffff;
+}
+
+.qodef-page-title .qodef-m-content {
+    padding-top: 90px;
+}
+
+.qodef-header--divided #qodef-page-header {
+    background-color: transparent;
+}
+
+.heart-icon {
+    color: #F28316;
+    font-size: 16px;
+    margin-right: 3px;
+}
+
+.qodef-recipe-difficulty img {
+    margin-right: 5px;
+}
+
+.small-text{
+    color: #C3CCD3;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.qodef-recipe-list.qodef-item-layout--info-on-right .qodef-e-excerpt {
+    padding-right: 5%;
+}
+
+.elementor-540 .elementor-element.elementor-element-060e6b1 {
+    padding: 70px 0px 70px 0px;
+}
+
+
+
+
+
+
+/* sidebar css */
+
+.sidebar-post-wrapper,
+.sidebar-gallery-wrapper {
+    margin: 50px 30px;
+}
+
+.sidebar-post-wrapper .post-title h5,
+.sidebar-gallery-wrapper .gallery-title h5 {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(112, 112, 112, .16);
+}
+
+.sidebar-post-wrapper .post-content {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.sidebar-post-wrapper .post-content:last-child {
+    margin-bottom: 0;
+}
+
+.sidebar-post-wrapper .left img {
+    width: 50px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.sidebar-post-wrapper .post-content .right {
+    margin-left: 15px;
+}
+
+.sidebar-post-wrapper .post-content .right h6 {
+    margin: 0;
+    color: #768791;
+}
+
+.sidebar-gallery-wrapper .gallery-content img {
+    width: 80px;
+    height: 73px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.gallery-content-row {
+    margin-bottom: 10px;
+    display: flex !important;
+    justify-content: space-around;
+}
+
+.gallery-content-row:last-child {
+    margin-bottom: 0;
+}
+
+.newsletter .your-email:after {
+    content: "";
+}
+
+.newsletter button[type=submit] {
+    background: #F28316;
+}
+
+
+
+
+
+/* about css */
+
+.about .elementor-761 .elementor-element.elementor-element-985f894 {
+    width: 67.8%;
+} 
+
+.about .elementor-761 .elementor-element.elementor-element-57d40b5 {
+    width: 32.2%;
+}
+
+.about p {
+    color: #768791; 
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.about-bottom-text {
+    margin: 40px 0 130px;
+}
+
+.about-cookbooks{
+    width: 40% !important;
+    text-align: center;
+    background: #F28316;
+}
+
+.about-cookbooks p {
+    color: #fff;
+}
+
+
+.elementor-540 .elementor-element.elementor-element-b3e965c {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: -10.7%;
+    margin-bottom: 3%;
+    padding: 0% 10.5% 0% 10.5%;
+    z-index: 50;
+}
+
+
+
+
+
+@media only screen and (min-width: 1441px){
+    .recipies .qodef-content-grid,
+    .about .qodef-content-grid,
+    .blog-posts .qodef-content-grid,
+    .review .qodef-content-grid {
+        width: 1300px;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .desktop-header {
+        display: none !important;
+    }
+
+    .mobile-header {
+        display: block !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    
+    #qodef-page-mobile-header .qodef-mobile-header-logo-link {
+        height: 32px;
+    }
+    .recipies .qodef-recipe-single .qodef-recipe-title {
+        font-size: 30px;
+    }
+    .recipe-products-row{
+        margin-bottom: 60px;
+    }
+    .recipe-products-row:last-child{
+        margin-bottom: 0;
+    }
+    .sidebar-post-wrapper, .sidebar-gallery-wrapper {
+        margin: 50px 0;
+    }
+
+    .mobile_subscriber.elementor-hidden-desktop {
+        display: block;
+    }
+
+    .about .elementor-761 .elementor-element.elementor-element-985f894,
+    .about .elementor-761 .elementor-element.elementor-element-57d40b5 {
+        width: 100%;
+    } 
+    
+}
