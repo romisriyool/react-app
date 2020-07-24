@@ -15,7 +15,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
+      <Router basename="/react-app">
         <Route path={"/"} exact component={Home} />
         <Route path={"/home"} exact component={Home} />
         <Route path={"/about"} exact component={About} />
