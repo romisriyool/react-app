@@ -1,0 +1,79 @@
+{
+    "general": {
+        "title": "Healthy spaghetti bolognese with mushrooms and peppers",
+        "img": "assets/img/h2-img-14.jpg",
+        "clock_text": "30 MINUTES",
+        "thumb_text": "SUPER EASY",
+        "fork_text": "SERVES 1",
+        "tag_text": "FAST TO MAKE",
+        "sub_heading": "7 Secrets For Leadership Success",
+        "sub_heading_bottom_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to",
+        "nutritional_info_label": "Nutritional Information",
+        "nutritional_info_bottom_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "ingredients_label": "Ingredients",
+        "directions_label": "Directions",
+        "directions_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+    },
+    "nutritional_info": [
+        {
+            "label": "Fat",
+            "value": "200G"
+        },
+        {
+            "label": "Protein",
+            "value": "100G"
+        },
+        {
+            "label": "Sugars",
+            "value": "146G"
+        },
+        {
+            "label": "Calories",
+            "value": "436G"
+        },
+        {
+            "label": "Carbs",
+            "value": "24G"
+        },
+        {
+            "label": "Trans fat",
+            "value": "136G"
+        }
+    ],
+    "recipe_products": [
+        {
+            "img": "assets/img/recipe1.png",
+            "link": "#"
+        },
+        {
+            "img": "assets/img/recipe2.png",
+            "link": "#"
+        }
+    ],
+    "ingredients": [
+        {
+            "label": "lorem Ipsum Dollar"
+        },
+        {
+            "label": "lorem Ipsum Dollar"
+        },
+        {
+            "label": "lorem Ipsum Dollar"
+        },
+        {
+            "label": "lorem Ipsum Dollar"
+        },
+        {
+            "label": "lorem Ipsum Dollar"
+        },
+        {
+            "label": "lorem Ipsum Dollar"
+        },
+        {
+            "label": "lorem Ipsum Dollar"
+        },
+        {
+            "label": "lorem Ipsum Dollar"
+        }
+    ]
+}

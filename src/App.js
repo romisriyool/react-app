@@ -1,26 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { render } from 'react-dom';
+import { BrowserRouter as Router, Route, HashRouter  } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Recipes from './pages/Recipes';
+import Review from './pages/Review';
+import Comparison from './pages/Comparison';
+import Blog from './pages/Blog';
+import Single_Blog from './pages/Single_Blog';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+class App extends React.Component {
+
+  render() {
+    return (
+      <Router basename="/readycitric">
+        <Route path={"/"} exact component={Home} />
+        <Route path={"/home"} exact component={Home} />
+        <Route path={"/about"} exact component={About} />
+        <Route path={"/recipes"} exact component={Recipes} />
+        <Route path={"/review"} exact component={Review} />
+        <Route path={"/comparison"} exact component={Comparison} />
+        <Route path={"/blog"} exact component={Blog} />
+        <Route path={"/single_blog/:id"} exact component={Single_Blog} />
+      </Router>
+    );
+  }
 }
+
+
 
 export default App;
